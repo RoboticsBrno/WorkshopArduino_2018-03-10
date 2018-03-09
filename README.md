@@ -24,7 +24,7 @@ Přestávka (15 min)
 2. blok (10:45 - 12:45) 
 - práce se senzory - potenciometr, senzor okolního osvětlení 
 - připojování externího čidla - teploměr DHT11 
-- generování tónů a zvuku 
+- ovládání serva
 - jak dál pokračovat, kde nakoupit součástky, jak řešit problémy 
 
 Workshop zajistila: Robotárna - Dům dětí a mládeže Brno, Helceletova (http://www.robotarna.cz) 

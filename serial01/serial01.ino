@@ -42,4 +42,5 @@ int casCekani = 500;
 void loop() {
   casCekani = analogRead(POT1) + 100;
   Serial.println(casCekani);
+  delay(100);
 }

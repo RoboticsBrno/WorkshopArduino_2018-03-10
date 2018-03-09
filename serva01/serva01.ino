@@ -41,13 +41,12 @@ void setup() {
   Serial.println("ServoTest - attach");
   myservo.write(90);
   Serial.println("ServoTest - write");
-  //delay(1000);
+  delay(1000);
   Serial.println("ServoTest - continue");
 }
 
 void loop() {   
   Serial.println(analogRead(PHOTO)); // 0 - 1023
   myservo.write(analogRead(PHOTO)*0.175);   // write(0 - 180)
-  
   delay(100);
 }

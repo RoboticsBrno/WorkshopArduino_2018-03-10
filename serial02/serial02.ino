@@ -48,6 +48,6 @@ void loop() {
   Serial.print(digitalRead(POT1));
   Serial.print("   ");
   Serial.print(digitalRead(SW1));
-  Serial.println("   ");
-  
+  Serial.println("   "); 
+  delay(100);  
 }
